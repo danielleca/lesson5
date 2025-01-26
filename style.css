@@ -1,0 +1,16 @@
+*{
+    
+    margin:10px;
+}
+body{
+    text-align:center;
+    font-family: "Bebas Neue", serif;
+    color:yellow;
+    background-image:url("images/galaxy.gif");
+}
+#btn{
+    background-color: white;
+    color:black;
+    border-radius: 15px;
+    border:3px solid yellow;
+}
