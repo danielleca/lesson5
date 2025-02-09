@@ -1,8 +1,20 @@
-var show=()=>{
-    let name=document.getElementById("name").value;
-    document.getElementById("display").innerHTML="Wish you a very happy new year "+name;
-    document.getElementById("display3").src="images/2025.gif";
-    document.getElementById("display2").innerHTML="New year, new hopes and newer beginnings- all of us ardently wait for the clock to strike 12 and usher in the new year. It's such a celebratory, positive time which keeps everyone in good spirits!";
-
+*{
+    
+    margin:10px;
 }
-document.getElementById("btn").addEventListener("click",show);
+body{
+    text-align:center;
+    font-family: "Bebas Neue", serif;
+    color:yellow;
+    background-image:url("images/galaxy.gif");
+}
+#btn{
+    background-color: white;
+    color:black;
+    border-radius: 15px;
+    border:3px solid yellow;
+}
+#display3{
+    color:yellow;
+    width:80%;
+}
